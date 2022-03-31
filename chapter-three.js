@@ -33,4 +33,19 @@ Math.cbrt - cube root */
 // The value of .1 can be very closely apporoximated and generally doesn't cause an issue unless you are compairing for equality.
 // If it is a problems try to use different integers. For example whole cents instead of 100ths of a dollar.
 // BitInt numbers allow 64 bit numbers. These integers are identified by a lower case n after the numbers
-
+// You can use the same arithmatic with BitInt as you do with regular numbers. But you can't mix and match
+// Comparison operators (< >) do work with mixing BigInt and regular numbers
+// The JavaScript type for representing text is a string.
+// two\nlines (\n causes a line break)
+// one\
+// line\
+// here
+// The \ (backslash) can be used to escape quotes or apostrophies inside a string
+// You can concatate strings by using the plus sign
+// Strings can be evaluated with === or !=== 
+let s = "Hello World"
+s.substring(1, 4) // extracts "ell"
+s.slice (1,4) // Same as above
+s.split (", ") //split at the delimiter string
+// page 35 has a list of all different properties for strings
+// Strings a imutable. These methods create new strings
